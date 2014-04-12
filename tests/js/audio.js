@@ -2,7 +2,7 @@ var context;
 var source, sourceJs;
 var analyser;
 var buffer;
-var url = 'data/cufool_you_in_my_world_instrumental.ogg';
+var url = 'data/music.mp3';
 var array = new Array();
 var boost = 0;
 
