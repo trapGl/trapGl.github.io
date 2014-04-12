@@ -10,8 +10,8 @@
   </head>
   <body>
     <div id="container"></div>
-    <script src="http://www.html5canvastutorials.com/libraries/three.min.js"></script>
-    <script defer="defer">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r66/three.min.js"></script>
+    <script>
       // revolutions per second
       var angularSpeed = 0.2; 
       var lastTime = 0;
@@ -48,7 +48,7 @@
       
       // material
       var material = new THREE.MeshLambertMaterial({
-        map: THREE.ImageUtils.loadTexture('http://localhost:8000/asap_ferg_billboard_650_a.jpg')
+        map: THREE.ImageUtils.loadTexture('http://trapgl.github.io/asap_ferg_billboard_650_a.jpg')
       });
                 
       // cube
