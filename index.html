@@ -30,7 +30,8 @@
  
         // request new frame
         requestAnimationFrame(function(){
-            animate();
+            animate()//;
+	
         });
       }
  
@@ -65,7 +66,9 @@
       var directionalLight = new THREE.DirectionalLight(0xffffff);
       directionalLight.position.set(1, 1, 1).normalize();
       scene.add(directionalLight);
- 
+
+	
+
       // start animation
       animate();
     </script>
