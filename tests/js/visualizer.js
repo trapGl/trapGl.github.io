@@ -18,7 +18,8 @@ for(var x = 0; x < 30; x += 2) {
 			ambient: 0x808080,
 			specular: 0xffffff,
 			shininess: 20,
-			reflectivity: 5.5 
+			reflectivity: 5.5,
+			map: THREE.ImageUtils.loadTexture('http://trapgl.com/asap_ferg_billboard_650_a.jpg')
 		});
 		
 		cubes[i][j] = new THREE.Mesh(geometry, material);
