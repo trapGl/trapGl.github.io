@@ -66,7 +66,7 @@ request.onload = function() {
 			
 			$('#info')
 				.fadeOut('normal', function() {
-					$(this).html('<div id="artist"><a class="name" href="http://www.looperman.com/users/profile/345547" target="_blank">Cufool</a><br /><a class="song" href="http://www.looperman.com/tracks/detail/70506" target="_blank">You in my world instrumental</a><br /></div><div><img src="data/cufool.jpg" width="58" height="58" /></div>');
+					$(this).html('<div id="artist"><a class="name" href="http://www.looperman.com/users/profile/345547" target="_blank">Jumby Got That Loud</a><br /><a class="song" href="trapGl.com" target="_blank">Ten Tahoes On It</a><br /></div><div><img src="../asap_ferg_billboard_650_a.jpg" width="58" height="58" /></div>');
 				})
 				.fadeIn();
 			
